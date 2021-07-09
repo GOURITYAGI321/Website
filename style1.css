@@ -1,0 +1,260 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;1,400&family=M+PLUS+Rounded+1c&family=Staatliches&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.upper{
+    
+    font-size: 30px;
+}
+.default{
+    align-items: center;
+    justify-content: center;
+    
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+}
+.paras1{
+    text-align: center;
+    justify-content: center;
+    padding: 20px 20px;
+    
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.navbar{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     position: sticky;
+     top:0;
+     cursor: pointer;
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+     
+}
+.nav-list li{
+        list-style: none;
+        padding: 20px 15px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.nav-list li a:hover{
+    color: grey;
+}
+.rightnav{  
+    padding: 0 23px;
+    width:30%;
+    text-align: right;
+}
+#search{
+    background-color: white;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo img{
+    width: 40%;
+    border:3px solid black;
+    border-radius: 50px; ;
+}
+.background{
+    background: rgba(0,0,0,0.7) url("pg.jpg.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    color:white;
+    font-family: Arial;
+    max-width: 50%;
+    margin: auto;
+    
+}
+.firstSection{
+    height: 100vh;
+}
+.firstHalf{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    
+}
+.btn-sm{
+    padding: 5px ;
+    vertical-align: middle;
+}
+
+
+.Container{
+
+    position: absolute;
+    top:20%;
+    left:40%;
+    
+}
+.Container h1{
+    font-size: 40px;
+    display:inline-block;
+    border-bottom:2px solid black;
+    margin-bottom: 43px solid black;
+    padding: 13px 0;
+}
+.box{
+    width: 100%;
+    border-bottom:2px solid black;
+    margin: 32px 0px;
+    
+}
+.box input{
+    width: 75%;
+      background:none;
+      padding: 5px 10px;
+     font-size: 20px;
+     
+     outline: none;
+     border:none;
+     color: blanchedalmond;
+}
+.btn i{
+    padding: 0 12px;
+    width: 25px;
+    text-align: center;
+}
+.btn{
+    color: white;
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 0px;
+    border: 2px solid white;
+    padding: 6px;
+    background: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.btn:hover{
+    color:white;
+    background: black;
+}
+.thumbnail img{
+    width:50%;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 30px;
+}
+.sectionTag{
+    padding: 16px 0px;
+}
+.section{
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+    height: 500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+.paras{
+    padding: 0px 65px;
+}
+.contact{
+   
+  background-color:grey;
+  height: 833px;
+}
+.text-center{
+    text-align: center;
+    padding-top:10px;
+    font-family: 'IBM Plex Serif', serif;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-size: 35px;
+}
+.form{
+    max-width: 450px;
+      margin:25px  auto;
+}
+.form-input{
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 14px 0;
+    padding: 5px 3px;
+}
+.text-footer{
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    padding: 30px 0;
+    color: white;
+}
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width:33px;
+    background-color: white;
+    height: 4px;
+    margin:5px 3px;
+}
+@media only screen and(max-width:1140px)
+{
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+         opacity: 0;
+    }
+}
+.default{
+
+}
+
